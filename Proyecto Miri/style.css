@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Satisfy', cursive;
+    margin: 0;
+    padding: 10px;
+    background-color: #F5FDB0;
+}
+.imgheader{
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.imgheader2{
+    height: 80px;
+    width: 150px;
+
+}
+.reina{
+    width: 860px;
+    height: 200px;
+    border-radius: 50px;
+    border: solid   rgb(124, 3, 149) 2px;
+    
+}
+
+
+header{
+    
+    padding: 20px;
+    background: linear-gradient(rgba(4, 241, 91, 0.55), rgb(7, 252, 158, 0.55));
+    
+    text-align: center;
+    border: solid rgb(38, 224, 84) 2px;
+    border-radius: 50px;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(157, 95, 199);
+    border: solid #ad03c7 2px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+nav a{
+    color: rgb(7, 250, 158);
+    padding: 20px 60px;
+    text-decoration: none;
+    color: aquamarine;
+    font-family: Tahoma, sans-serif;
+    font-size: 2rm;
+    text-transform: capitalize;
+    text-shadow: 3px 3px 3px rgb(228, 208, 27);
+
+}    
+.row{
+    display: flex;
+    flex-wrap: wrap;
+} 
+aside{
+    flex: 50px;
+    background-color: #BCFFB9;
+    margin-top: 20px;
+    padding: 20px;
+    border: solid #28FFBF 1px;
+    border-radius: 15px;
+}
+section{
+    flex: 50%;
+    background-color: #B5FFD9;
+    margin-top: 20px;
+    padding: 20px;
+    border: solid #28FFBF 1px;
+    border-radius: 15px;
+
+}
+.footer-basic{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #F7E6AD;
+    border: solid #dbbf63;
+    border-radius: 12px;
+}
+@media screen and (max-width:700px){
+    nav, .row{
+        flex-direction: column;
+    }
+}
+h1{
+    font-family: 'Grape Nuts', cursive;
+    font-size: 7rm;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    text-shadow: 3px 3px 3px rgb(124, 3, 149);
+    color: blueviolet;
+
+}
+h2{font-family: 'Grape Nuts', cursive;
+    font-size: 3rm;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 3px blueviolet;
+    color: blueviolet;
+
+}
+
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+    display: flex;
+    justify-content: center;
+    text-shadow: black 2px 2px 3px;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:rgb(7, 250, 158);
+    text-decoration:none;
+    
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:50px;
+    height:50px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid rgb(137, 7, 212);
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+a img{height: 30px;
+    width: 30px;
+  }
+  .h1personajes{
+    font-size: 6rem;
+    text-transform: capitalize;
+    text-shadow: 4px 4px 6px yellow;
+
+  }
+  .ppersonajes{
+    font-size: 25px;
+
+  }
+  .imgpersonajes {
+    height: 480px;
+    width: 1380px;
+    border-radius: 30px;
+    border: solid lightgreen
+  }
+  .divpersonajes{
+    background-color: #28FFBF;
+    border: solid aquamarine;
+    border-radius: 30px;
+  }
+  .divcontainer {
+    background-color: #D087FA;
+    border: solid rgb(120, 7, 165);
+    border-radius: 30px;
+    margin-top: 30px;
+
+  }
+  .divcontainer h2 {
+  color: #dbbf63;
+  letter-spacing: 3px;
+  font-size: 2rem;
+  }
+  .divcontainer h1 {
+    color: lightgreen;
+    letter-spacing: 3px;
+    font-size: 3rem;
+  }
+  .pcuento {
+text-align: start;
+  }
+    
+  
